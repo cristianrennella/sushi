@@ -1,0 +1,22 @@
+{
+  "name": "websushi-with-cart-item",
+  "description": "",
+  "main": "",
+  "authors": [
+    "cristianrennella <cristianrennella@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cristianrennella/launchschool",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "backbone": "^1.3.3",
+    "handlebars": "^4.0.11"
+  }
+}

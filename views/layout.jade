@@ -1,0 +1,25 @@
+include /_mixins
+
+doctype html
+html
+  head
+    title= 'Sushi Restaurant Website'
+    +stylesheet_link_tag("application")
+    +javascript_include_tag("vendor/all")
+    +javascript_include_tag("handlebars_templates")
+  body
+    header
+    main
+      #cart
+
+      #content
+        block content
+
+    +javascript_include_tag("application")
+    +javascript_include_tag("models/item")
+    +javascript_include_tag("collections/items", "collections/cart_items")
+    +javascript_include_tag("views/item", "views/item_details", "views/index", "views/cart", "views/order", "views/header", "views/orderItem")
+    script(type="text/javascript").
+      App.items = new Items(!{JSON.stringify(items)});
+    +javascript_include_tag("router")
+    block scripts

@@ -1,0 +1,18 @@
+{{#if quantity}}
+<ul>
+  {{#each items}}
+  <li data-id="{{id}}">
+    <figure><img src="/images/{{src}}" alt="cart-item"/></figure>
+    <p>{{quantity}} x ${{price}}</p>
+  </li>
+  {{/each}}
+</ul>
+<section>
+  <h3>Your<br/>shopping cart</h3>
+  <p class="total">${{total}}</p>
+  <p></p>
+  <footer><a href="#" class="left empty_cart">Empty cart</a>
+    <!----><a href="/checkout" class="right checkout">Checkout</a>
+  </footer>
+</section>
+{{/if}}

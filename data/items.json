@@ -1,0 +1,28 @@
+[
+    {
+      "id":1,
+      "name":"Sashimi salad",
+      "price":12.00,
+      "src":"sashimi-salad.jpg"
+    }, {
+      "id":2,
+      "name":"Chirashi sushi",
+      "price":21.00,
+      "src":"chirashi-sushi.jpg"
+    }, {
+      "id":3,
+      "name":"Seaweed salad",
+      "price":17.00,
+      "src":"seaweed-salad.jpg"
+    }, {
+      "id":4,
+      "name":"Edamame",
+      "price":4.00,
+      "src":"edamame.jpg"
+    }, {
+      "id":5,
+      "name":"Miso soup",
+      "price":4.00,
+      "src":"miso-soup.jpg"
+    }
+]
